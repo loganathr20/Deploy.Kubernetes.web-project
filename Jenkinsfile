@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOCKER_REGISTRY = "your-docker-registry"
+        // test
         K8S_NAMESPACE = "your-kubernetes-namespace"
         NEXUS_RELEASE_REPO = "your-nexus-repo/releases"
         NEXUS_SNAPSHOT_REPO = "your-nexus-repo/snapshots"
